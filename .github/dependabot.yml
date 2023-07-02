@@ -5,9 +5,17 @@ updates:
     schedule:
       interval: "monthly"
     target-branch: "main"
+    groups:
+      docker-all:
+        patterns:
+          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
     target-branch: "main"
+    groups:
+      github-actions-all:
+        patterns:
+          - "*"
