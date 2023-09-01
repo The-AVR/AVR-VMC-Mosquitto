@@ -1,4 +1,4 @@
-FROM docker.io/library/eclipse-mosquitto:2.0.15
+FROM docker.io/library/eclipse-mosquitto:2.0.17
 
 COPY docker-entrypoint.sh /bell/docker-entrypoint.sh
 RUN chmod +x /bell/docker-entrypoint.sh
